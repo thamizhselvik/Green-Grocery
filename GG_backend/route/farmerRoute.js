@@ -4,8 +4,8 @@ const { addFarmer, login, postProduct, uploadProfilePic, postProductPic, getProd
 const auth = require("../middleware/auth");
 const multer = require('multer');
 
-const uploadProfile = multer({ dest: 'C:/Users/Suriya/Desktop/ggfrontend/public/image/profile/farmer' });
-const uploadProduct = multer({ dest: 'C:/Users/Suriya/Desktop/ggfrontend/public/image/product' });
+const uploadProfile = multer({ dest: 'C:/Users/ThamizhSelvi/Desktop/ggfrontend/public/image/profile/farmer' }); //replace it with your file address
+const uploadProduct = multer({ dest: 'C:/Users/ThamizhSelvi/Desktop/ggfrontend/public/image/product' }); //replace it with your file address
 
 const router = express.Router();
 
