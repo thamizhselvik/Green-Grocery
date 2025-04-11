@@ -4,7 +4,7 @@ const { addVendor, login, getAllproducts, getProductByCategory, checkUsername, c
 const auth = require("../middleware/auth");
 const multer = require('multer')
 const { getProductById } = require("../controller/vendorController");
-const uploadProfile = multer({ dest: 'C:/Users/Suriya/Desktop/ggfrontend/public/image/profile/vendor' });
+const uploadProfile = multer({ dest: 'C:/Users/ThamizhSelvi/Desktop/ggfrontend/public/image/profile/vendor' }); //replace it with your file address
 
 const router = express.Router();
 
