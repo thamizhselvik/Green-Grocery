@@ -23,7 +23,7 @@ exports.sendChat = async (req, res) => {
             },
             {
                 headers: {
-                    'Authorization': `Bearer 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`,
+                    'Authorization': `Bearer replace this with your groq API key`, //make sure your'e groq account can access llama3-8b-8192 model
                     'Content-Type': 'application/json'
                 }
             }
